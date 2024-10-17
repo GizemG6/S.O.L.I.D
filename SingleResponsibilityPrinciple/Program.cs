@@ -30,6 +30,6 @@
         }
     }
 
-    // Report class only stores the report data, ReportPrinter does the printing process,
+    // Report_Correct class only stores the report data, ReportPrinter does the printing process,
     // and ReportSaver does the saving process. Each class has only one responsibility.
 }

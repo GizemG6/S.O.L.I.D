@@ -35,5 +35,5 @@
         }
     }
 
-    // The AreaCalculator class is open to be extended without modification to add new shapes, just using the IShape interface.
+    // The AreaCalculator_Correct class is open to be extended without modification to add new shapes, just using the IShape interface.
 }

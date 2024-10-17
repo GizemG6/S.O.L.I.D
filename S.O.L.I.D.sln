@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SingleResponsibilityPrincip
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenClosedPrinciple", "OpenClosedPrinciple\OpenClosedPrinciple.csproj", "{01BC0F19-5E16-48BC-B7E9-ABE3110D3EFF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LiskovSubstitutionPrinciple", "LıskovSubstitutionPrinciple\LiskovSubstitutionPrinciple.csproj", "{C3731CD7-5E96-43D0-90C0-A83551767740}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{01BC0F19-5E16-48BC-B7E9-ABE3110D3EFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{01BC0F19-5E16-48BC-B7E9-ABE3110D3EFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{01BC0F19-5E16-48BC-B7E9-ABE3110D3EFF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3731CD7-5E96-43D0-90C0-A83551767740}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3731CD7-5E96-43D0-90C0-A83551767740}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3731CD7-5E96-43D0-90C0-A83551767740}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3731CD7-5E96-43D0-90C0-A83551767740}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
