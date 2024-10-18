@@ -8,6 +8,16 @@
                 " and that responsibility should cover all functions of the class.");
         }
     }
+
+    public class Run
+    {
+        public void Print()
+        {
+            Console.WriteLine("Single Responsibility Principle(SCP): A class should have only one responsibility," +
+                    " and that responsibility should cover all functions of the class.");
+        }
+    }
+
     public class Report_Correct
     {
         public string Title { get; set; }

@@ -8,6 +8,14 @@
                 "both should depend on abstractions.");
         }
     }
+    public class Run
+    {
+        public void Print()
+        {
+            Console.WriteLine("Dependency Inversion Principle(DIP): High-level modules should not depend on low-level modules; " +
+                "both should depend on abstractions.");
+        }
+    }
 
     // NotificationManager_Wrong directly depends on the EmailService_Wrong class.
     // This makes it difficult to change dependencies and reduces the testability of the code.

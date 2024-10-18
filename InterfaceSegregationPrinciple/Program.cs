@@ -8,6 +8,7 @@
                 "A class should not depend on interfaces that contain methods that it does not use.");
         }
 
+
         // RobotWorker_Wrong class can not use the Eat method,
         // in this case the Worker interface is not suitable for extension and the interfaces must be separated.
         public class HumanWorker_Wrong : IWorkerWrong
@@ -58,6 +59,14 @@
             {
                 // work code
             }
+        }
+    }
+    public class Run
+    {
+        public void Print()
+        {
+            Console.WriteLine("Interface Segregation Principle(ISP): " +
+            "A class should not depend on interfaces that contain methods that it does not use.");
         }
     }
 }
